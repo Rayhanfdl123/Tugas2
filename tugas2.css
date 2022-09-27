@@ -1,0 +1,60 @@
+body {
+    background-color: #619ee4;
+    display: flex;
+    justify-content: left;}
+.form {
+    margin-top: 20px;
+    padding: 4em;
+    border-radius: 14px;
+    display: flex;
+    justify-content: left;
+    width: 20%;}
+.button {
+    background-color: #0051ff;
+    color:#000000;
+    font-size: 24pt;
+    font-weight: 100;
+    border: 0;
+    border-radius: 16px;
+    padding: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;}
+input{
+    border-radius: 7px;}
+input[type=text], input[type=number] {
+    width: 99%;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    font-size: large;}
+select {
+    width: 100%;
+    height: 30px;}
+
+
+#select {
+    width: 100%;}
+p {
+    font-size: large;}
+
+label {
+    font-size: large;}
+
+span {
+    font-size: large;}
+
+select{
+    height: 40px;
+    font-size: large;}
+
+span {
+    font-size: large;}
+
+.files {
+    font-size: large;}
+.button:hover {
+    background-color: #479dff;
+    cursor: pointer;}
+
+.p1 {
+    text-align: center;}

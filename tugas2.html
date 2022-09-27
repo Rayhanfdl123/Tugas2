@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tugas2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <form method="dialog">
+        <!-- Data -->
+        <h1 class="p1">Pembelian tiket kapal</h1> <br>
+        <p>Nama Lengkap</p>
+        <Input type="text" class="input" id="nama" required></Input> <br>
+        <p>nik</p>
+        <input type="number"  class = "input" id="nik" required> <br>
+        <p>Nomor telpon</p>
+        <input type="number" class="input" min="1"  id="nomor_telpon" required><br>
+        <br>
+        <!-- asal -->
+        <label for="Asal">Pilih Asal:</label> <br>
+        <select name="Asal" id="Asal" class="input">
+            <option value="" selected disabled hidden>Pilih Asal</option>
+            <option value="balikpapan">balikpapan</option>
+            <option value="pare pare">pare pare</option>
+            <option value="makasar">makasar</option>
+            <option value="manado">manado</option>
+          </select><br>
+          <br>
+          <!-- tujuan -->
+          <label for="tujuan">Pilih tujuan:</label> <br>
+          <select name="tujuan" id="size" class="input">
+              <option value="" selected disabled hidden>Pilih tujuan</option>
+              <option value="balikpapan">balikpapan</option>
+              <option value="pare pare">pare pare</option>
+              <option value="makasar">makasar</option>
+              <option value="manado">manado</option>
+          </select> <br>
+          <br>
+          <!-- pembayaran -->
+          <label for="pembayaran">Pembayaran:</label> <br>
+          <select name="pembayaran" id="pembayaran" class="input">
+              <option value="" selected disabled hidden>Pilih Pembayaranmu</option>
+              <option value="bca">bca</option>
+              <option value="mandiri">mandiri</option>
+              <option value="bni">bni</option>
+          </select><br> <br>
+          <!-- foto ktp -->
+          <span>Masukkan foto ktp</span> <br>
+          <input type="file" id="ktp" class="files" > <br> <br>
+          <br>
+          <button class="button" id="button">Submit</button>
+        </form>
+    </div>
+    <script src="tugas2.js"></script>
+</body>
+</html>
